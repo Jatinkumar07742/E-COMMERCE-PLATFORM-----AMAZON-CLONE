@@ -11,38 +11,8 @@ Flutterzon focuses on delivering a seamless and responsive user interface, ensur
 
 Flutterzon is a purpose-driven initiative, with the primary goal of creating an Amazon clone app that faithfully reproduces the renowned functionality and user experience of the Amazon mobile app.
 
-Tech Stack
-Client Side
-
-Flutter Badge Flutter
-
-Server Side
-
-NodeJS Express.js MongoDB MongoDB
-
-Features
-Auth & User Data
-
-Email & Password Authentication: Log in and manage user accounts with email and password credentials.
-
-Persisting Auth State and User Type Redirection: Remain logged in and automatically land on the correct dashboard (user or admin) based on your user type, both when launching the app and while signing in.
-
-User Data Persistence with Hydrated Bloc: Store user data persistently using Hydrated Bloc for seamless user experience.
-
-Home Screen
-
-Dynamic Home Screen Offer: Multiple offers on the home screen, including a captivating carousel of static image banners, a curated horizontal list of deals which is also static, but the four dynamic images offers can be easily updated from the backend for a constantly refreshing experience.
-Product Management:
-
-Category-Wise Products: Organize products by category for easy browsing and navigation.
-
-Product Search: Search for products efficiently using a dedicated search feature.
-
-Product Details: View comprehensive product details, including average rating, rating count, and product recommendations based on the product category.
-
-Product Rating System: Rate only products you have ordered, either through product details or order details screens.
-
-Deal of the Day: Discover the highest-rated product as the "Deal of the Day."
+<img width="1126" height="927" alt="image" src="https://github.com/user-attachments/assets/bdb121fe-28e7-401b-b4e4-52ead2942209" />
+<img width="1127" height="973" alt="image" src="https://github.com/user-attachments/assets/ea3ba248-53e2-4fbf-873b-9a8b53fe255a" />
 
 Account Features:
 
@@ -106,101 +76,19 @@ syncfusion_flutter_charts package: Utilizes the syncfusion_flutter_charts packag
 
 go_router: Employs go_router for efficient page navigation throughout the application.
 
-Screenshots
-Home
+<img width="845" height="877" alt="image" src="https://github.com/user-attachments/assets/b5ea3fc4-f69e-4b9f-8d00-048e85397deb" />
 
-Product
+<img width="843" height="876" alt="image" src="https://github.com/user-attachments/assets/a31feeac-46b0-4d03-8db5-36a324decff2" />
 
-Product
 
-Product
+<img width="847" height="867" alt="image" src="https://github.com/user-attachments/assets/97bb76b8-124c-48bd-b5d1-71efb16663e4" />
 
-Order
+<img width="853" height="826" alt="image" src="https://github.com/user-attachments/assets/86ce88f2-979f-4870-b5d2-a4e94a5502d9" />
 
-Order
+<img width="847" height="770" alt="image" src="https://github.com/user-attachments/assets/69703f5d-e4d5-447a-8c80-b80e8644b8d9" />
 
-Cart
+<img width="842" height="543" alt="image" src="https://github.com/user-attachments/assets/53e5923d-c387-4018-9613-b6a268f17c19" />
 
-Cart
-
-Admin
-
-Admin
-
-Admin
-
-Video Link - https://drive.google.com/uc?id=1XwgXe3bwy-LK_AiMJoD60q6w9Lf8A_oj
-
-Run Locally
-Clone this repository
-
-https://github.com/tejasbadone/flutterzon_bloc.git
-Migrate to the root directory and install all the required dependencies by running
-
-flutter pub get
-Create MongoDB Project & Cluster
-
-Connect to the cluster using Drivers and get the connection string.
-
-I've created a config.env file at the root directory of the project, containing the essential details for the setup, you could also create one or update the necessary values directly, it's totally up to you. demo of config.env file -
-
-PORT=PORTHERE
-DB_USERNAME='usernameHere'
-DB_PASSWORD='passwordHere'
-
-URI='uriHere'
-
-CLOUDINARY_CLOUDNAME='cloudname'
-CLOUDINARY_UPLOADPRESET='uploadpreset'
-Head to server/index.js and replace the userName, password, and connection string.
-
-Head to lib/src/utils/constants/strings.dart and replace the uri with your IP address.
-
-Create Cloudinary Project, and enable the unsigned operation in settings.
-
-Head to lib/src/data/repositories/admin_repository.dart, update the cloudinaryCloudName and cloudinaryUploadPreset present in the uploadImages() method.
-
-Now, run the following commands, to migrate to the server folder, install the necessary dependencies, and run the server locally.
-
-cd server
-npm install
-npm run dev (to run index.js using nodemon)
-OR
-npm start (to run index.js)
-Please star⭐ the repo if you like what you see😉.
-
-Download
-Download apk - https://drive.google.com/file/d/1K1k8DbwHfyAnujwRAPgzXmcEUVABFB_p/view?usp=sharing
-
-Test Credentials
-User
-
-Email: user@email.com
-Password: 123456
-Admin
-
-Email: admin@email.com
-Password: 123456
-Note
-If you wish to place an order in the application, you can enroll in the Google Pay API Test Cards Allowlist. This will provide you with mock card details, allowing you to safely test the order placement functionality within a controlled environment.
-
-For the GitHub version of Flutterzon apk provided above, please note that certain administrative features, such as the ability to delete products and offers, have been intentionally disabled to prevent unintended tampering with the actual database. The original codebase, accessible to you, includes the complete functionality, including the ability to delete products. If you wish to explore the full range of features, please refer to the original code provided.
-
-Please be aware that the application or APIs might experience delays in providing details, as the server is hosted on a hobby plan, If there is no activity for 15 minutes, the server may go to sleep, resulting in a delay in processing the first API request. Your patience during this process is greatly appreciated.
-
-If you are interested, there is another version of this project built using Provider and Flutter's setState. You can access it here.
-
-Disclaimer
-This application is a personal project built with educational and learning purposes in mind. It is neither affiliated nor endorsed by Amazon in any way. While the app features product details and images inspired by Amazon, these are solely for demonstration purposes and may not represent actual products. All rights to these elements belong to their respective owners. We are using them for educational purposes only and have no intention of commercial exploitation.
-
-Additionally, be aware that any attempts to place orders within this prototype are purely for testing purposes and will not result in actual product deliveries or charges in the real-world. This environment is designated exclusively for simulation and development purposes
-
-Contact
-JATIN KUMAR
-
-LinkedIn Gmail
-
-feel free to contact me!
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
